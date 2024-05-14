@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+.encabezado {
+    background-image: url(./imagenes/pixar-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    height: 21vh;
+}
+
+.menuSuperior {
+    list-style: none;
+    text-align: center;
+}
+
+.menuSuperior li {
+    display: inline-block;
+}
+
+.menuSuperior a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.7rem;
+}
+
+    /* Contenido */
+
+.contenido{
+    background-color: lightskyblue;
+    padding: 2rem;
+    width: 70%;
+    float: left;
+}
+.contenido_imagen{
+    width: 50%;
+}
+.contenido_imagen img{
+    width: 100%;
+    box-shadow: 8px 8px rgba(128, 128, 128, 0.712);
+    border-radius: 10px;
+}
+
+/* Peliculas */
+
+.contenido_peliculas{
+    background-color: rgba(0, 0, 255, 0.315);
+    border: solid 8px black;
+    width: 30%;
+    padding: 2rem;
+    line-height: 2rem;
+    float: right;
+    
+}
+.lista_peliculas{
+    width: 58.3%;
+}
+.lista_peliculas img{
+    width: 100%;
+}
+.lista_peliculas{
+    padding-top: 1rem;
+}
+
+
+
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    clear: both;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+/* Ejemplo box model */
+.box_model, .box_model2 {
+    float: left;
+    width: 250px;
+    height: auto;
+
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+
+    padding: 10px 40px 30px 20px;
+    /*defino los cuatros lados en una linea, sentido agujas del reloj*/
+
+
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    margin: 10px 40px;
+    /*arriba y abajo*/
+    /*overflow: auto;*/
+
+    border: solid 5px red;
+}
